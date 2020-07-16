@@ -1,6 +1,6 @@
 {% set name = "google-cloud-dataproc" %}
-{% set version = "0.7.0" %}
-{% set sha256 = "612f175466cb0dee45bc3e9157123ab59126e53f8baaa0bfa2095163ed52a279" %}
+{% set version = "1.0.1" %}
+{% set sha256 = "0d6a31a9c556ace7859831974b3e5607e61a5064d27fa455fdcc39ca2ffc4274" %}
 
 package:
   name: {{ name|lower }}
@@ -34,12 +34,8 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Google Cloud Dataproc API client library'
-  description: Google Cloud Dataproc API client library manages Hadoop-based clusters and jobs on Google
-    Cloud Platform. With Dataproc, enterprises get a fully managed, purpose-built cluster that can autoscale
-    to support any data or analytics processing job. 
-
-    See the [quick start guide](https://googleapis.dev/python/dataproc/latest/index.html#quick-start).
+  summary: Google Cloud Dataproc API client library
+  description: "Google Cloud Dataproc API client library manages Hadoop-based clusters and jobs on Google Cloud Platform. With Dataproc, enterprises get a fully managed, purpose-built cluster that can autoscale to support any data or analytics processing job.\nSee the [quick start guide](https://googleapis.dev/python/dataproc/latest/index.html#quick-start)."
 
   doc_url: https://googleapis.dev/python/dataproc/latest/index.html
   dev_url: https://github.com/googleapis/python-dataproc
