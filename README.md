@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-dataproc
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-dataproc-feedstock/blob/master/LICENSE.txt)
 
 Summary: Google Cloud Dataproc API client library
+
+Development: https://github.com/googleapis/python-dataproc
+
+Documentation: https://googleapis.dev/python/dataproc/latest/index.html
 
 Google Cloud Dataproc API client library manages Hadoop-based clusters and jobs on Google Cloud Platform. With Dataproc, enterprises get a fully managed, purpose-built cluster that can autoscale to support any data or analytics processing job.
 See the [quick start guide](https://googleapis.dev/python/dataproc/latest/index.html#quick-start).
@@ -118,4 +122,5 @@ Feedstock Maintainers
 =====================
 
 * [@parthea](https://github.com/parthea/)
+* [@xylar](https://github.com/xylar/)
 
