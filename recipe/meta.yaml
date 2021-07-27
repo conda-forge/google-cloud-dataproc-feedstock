@@ -1,5 +1,5 @@
 {% set name = "google-cloud-dataproc" %}
-{% set version = "2.4.0" %}
+{% set version = "2.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6e5373febe420e2b2375d2252b272129f11a37ff1b88a7587322931063be8d38
+  sha256: c11188baeb76989e91261f1f454013d090e69d4ade4185e181582c7d1c6fcb1a
 
 build:
   number: 0
@@ -19,7 +19,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - google-api-core-grpc >=1.22.2,<2.0.0dev
+    - google-api-core-grpc >=1.22.2,<3.0.0dev
     - libcst >=0.2.5
     - packaging >=14.3
     - proto-plus >=1.4.0
