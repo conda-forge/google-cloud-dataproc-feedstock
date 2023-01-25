@@ -1,5 +1,5 @@
 {% set name = "google-cloud-dataproc" %}
-{% set version = "5.2.0" %}
+{% set version = "5.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-dataproc-{{ version }}.tar.gz
-  sha256: e381c00e81f3d084c6a25bd9b41d709450c4316070c8e6761dacc9325fd25e7d
+  sha256: 8ae8577c5a7a71f0cd0ed937252f94f186d000e208d24858d9b9af3fbe5000fe
 
 build:
   noarch: python
