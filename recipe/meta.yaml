@@ -1,5 +1,5 @@
 {% set name = "google-cloud-dataproc" %}
-{% set version = "5.3.0" %}
+{% set version = "5.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-dataproc-{{ version }}.tar.gz
-  sha256: 8ae8577c5a7a71f0cd0ed937252f94f186d000e208d24858d9b9af3fbe5000fe
+  sha256: a0c5fe5cc8259a0bb6b1f4445714aafc4f5fa047f8f54cc7133914ba97856f5e
 
 build:
   noarch: python
@@ -24,6 +24,7 @@ requirements:
     - libcst >=0.2.5
     - proto-plus >=1.22.0,<2.0.0dev
     - protobuf >=3.19.5,<5.0.0dev,!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
+    - grpc-google-iam-v1 >=0.12.4,<1.0.0dev
 
 test:
   imports:
