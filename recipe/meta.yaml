@@ -35,11 +35,11 @@ test:
     - pip
 
 about:
-  home: https://github.com/googleapis/python-dataproc
+  home: https://github.com/googleapis/google-cloud-python
+  summary: Google Cloud Dataproc API client library
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: Google Cloud Dataproc API client library
   description: "Google Cloud Dataproc API client library manages Hadoop-based clusters and jobs on Google Cloud Platform. With Dataproc, enterprises get a fully managed, purpose-built cluster that can autoscale to support any data or analytics processing job.\nSee the [quick start guide](https://googleapis.dev/python/dataproc/latest/index.html#quick-start)."
 
   doc_url: https://googleapis.dev/python/dataproc/latest/index.html
