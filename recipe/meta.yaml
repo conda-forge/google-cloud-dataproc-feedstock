@@ -1,5 +1,5 @@
 {% set name = "google-cloud-dataproc" %}
-{% set version = "5.6.0" %}
+{% set version = "5.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-dataproc-{{ version }}.tar.gz
-  sha256: 5fa9dfb88433c2d0c138b7ebb6ade174103be3762ccd039b24d53c7448e3760d
+  sha256: 086229a0f987448bb92029e166212acef85d4e8e5d94f2822add21b382bf1c04
 
 build:
   noarch: python
@@ -35,11 +35,11 @@ test:
     - pip
 
 about:
-  home: https://github.com/googleapis/python-dataproc
+  home: https://github.com/googleapis/google-cloud-python
+  summary: Google Cloud Dataproc API client library
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: Google Cloud Dataproc API client library
   description: "Google Cloud Dataproc API client library manages Hadoop-based clusters and jobs on Google Cloud Platform. With Dataproc, enterprises get a fully managed, purpose-built cluster that can autoscale to support any data or analytics processing job.\nSee the [quick start guide](https://googleapis.dev/python/dataproc/latest/index.html#quick-start)."
 
   doc_url: https://googleapis.dev/python/dataproc/latest/index.html
