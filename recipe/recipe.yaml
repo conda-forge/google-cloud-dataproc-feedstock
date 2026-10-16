@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-dataproc
-  version: "5.31.0"
+  version: "5.32.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_dataproc-${{ version }}.tar.gz
-  sha256: 56edc831b4190abb4b3c3b951ae90ed511e1df596f0b3a96435e5c7a894b091c
+  sha256: 1d825c8df67cfa080835f421ce49b5d9d001d3fc6ddcd34d3b26230b0254fb36
 
 build:
   number: 0
